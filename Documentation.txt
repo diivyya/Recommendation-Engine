@@ -1,0 +1,23 @@
+Name: Recommendation Engine recommending Similar Movies
+
+Made By: Divya Tembhurne
+
+Developed on : June 19th, 2020
+
+Updated on: August 8, 2020
+
+Type: Machine Learning Model
+
+Purpose: A Project made, its of no Commercial or Professional Use yet. It has a 5000 set of movies 
+    with its features in the training dataset movie_dataset.csv and we input Movie and it tells most Similar 20 Movies.
+
+Data Sructures and Algorithm used: Content Based Recommendation Engine
+                                   Cosine Similarity Algorithm
+
+Packages used: numpy, pandas and sklearn 
+
+Error Handling Techniques:  Handling a Keyword feature which is giving Nan data everywhere
+
+Required Input: A Movie from the dataset
+
+Required Output: Most Similar 50 Movies in Decreasing Order

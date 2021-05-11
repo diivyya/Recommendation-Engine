@@ -2,7 +2,7 @@ Name: Recommendation Engine recommending Similar Movies
 
 Made By: Divya Tembhurne
 
-Developed on : June 19th, 2020
+Developed on : July 12th, 2020
 
 Updated on: August 8, 2020
 

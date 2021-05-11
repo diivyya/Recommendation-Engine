@@ -37,7 +37,6 @@ cv = CountVectorizer()       #two methods in this class  fit and
 
 count_matrix = cv.fit_transform(df["combined_features"])
 
-
 ##Step 5: Compute the Cosine Similarity based on the count_matrix
 cosine_sim = cosine_similarity(count_matrix) 
 
@@ -56,7 +55,7 @@ for i in range(0,10):
 for num in randomlist:
 	print(get_title_from_index(num))
 
-movie_user_likes = input("Choose a Movie which you like from the above Movies")
+movie_user_likes = input("Choose a Movie which you like from the above Movies(Type Movie Name): ")
 
 ## Step 6: Get index of this movie from its title
 movie_index = get_index_from_title(movie_user_likes)
